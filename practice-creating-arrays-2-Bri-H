@@ -1,0 +1,19 @@
+// Task 1: Create the Profile
+let userProfile = [
+    "John Doe",           // User name (string)
+    28,                   // Age (number)
+    true,                 // Subscription status (boolean)
+    "New York, USA",      // User's location (string)
+    ["reading", "cycling"] // User's hobbies (array)
+];
+
+// Task 2: Access and Log Profile Details
+console.log("User Name:", userProfile[0]); // Access and log user name
+console.log("Second Hobby:", userProfile[4][1]); // Access and log second hobby
+
+// Task 3: Modify the Profile
+userProfile[1] = 30; // Update age to a new value
+userProfile[4].push("gaming"); // Add a new hobby
+
+// Task 4: Display the Updated Profile
+console.log("Updated Profile:", userProfile);
